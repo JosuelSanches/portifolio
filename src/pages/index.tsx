@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
           Josuel Sanches
         </h1>
       </div>
-      <a href="/contatos">Contatos</a>
+      <Link href="/contatos">Contatos</Link>
     </main>
   )
 }
