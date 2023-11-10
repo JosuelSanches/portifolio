@@ -1,15 +1,42 @@
-import Link from "next/link";
+import Head from "next/head";
+
 
 export default function contatos(){
     return(
+        <>
+        <Head>
+            <title>
+                Contatos | Josuel
+            </title>
+        </Head>
         <main className="flex min-h-screen flex-col items-center justify-between p-24" >
-            <div>
-                <h1>contatos</h1>
-                <h2>josueldesouzasanches@gmail.com</h2>
-                <h2>091991188082</h2>
-                <h2>Cameta-pa</h2>
-            </div>
-            <Link href="/">Home</Link>
+    
+            <h1>Contatos</h1>                                        
+            <ul>
+                <li>
+                    <span>E-mail</span>
+                    <div>
+                        <a href="mailto: Josuel - josueldesouzasanches@gmail.com">
+                        Josuel - josueldesouzasanches@gmail.com</a>
+                    </div>
+                </li>
+                <li>
+                    <span>LinkedIn</span>
+                    <div>
+                        <a href="https://www.linkedin.com/in/josuel-sanches-9ab3431a0/">
+                            https://www.linkedin.com/in/josuel-sanches-9ab3431a0/</a>
+                    </div>
+                </li>
+                <li>
+                    <span>GitHub</span>
+                    <div>
+                        <a href="https://github.com/JosuelSanches">
+                            https://github.com/JosuelSanches</a>
+                    </div>
+                </li>
+                
+            </ul>
         </main>
+        </>
     )
 }

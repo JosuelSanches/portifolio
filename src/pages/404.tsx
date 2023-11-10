@@ -1,7 +1,14 @@
+import Head from "next/head";
 import Link from "next/link";
 
 export default function error404(){
     return(
+        <>
+        <Head>
+            <title>
+                404 | Josuel
+            </title>
+        </Head>
         <div className="flex min-h-screen flex-col items-center justify-between p-24">
             <h1 className="text-red-800">404 error</h1>
             <div>
@@ -10,5 +17,6 @@ export default function error404(){
             </div>
             <Link href={"/"}>ir para a pagina inicial</Link>
         </div>
+        </>
     )
 }
