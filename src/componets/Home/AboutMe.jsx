@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function AboutMe(){
@@ -18,7 +19,11 @@ export default function AboutMe(){
             </ul>
         </div>
         <div>
-            <img src="https://avatars.githubusercontent.com/u/107212505?s=400&u=01e853216987527b9a033e242b05358e07bf3ca3&v=4" alt="Foto de Perfil de Josuel. Homem, cabelo preto"/>
+            <Image src="https://avatars.githubusercontent.com/u/107212505?s=400&u=01e853216987527b9a033e242b05358e07bf3ca3&v=4" 
+            width={500} height={500}
+            alt="Foto de Perfil de Josuel. Homem, cabelo preto"
+            unoptimized
+            />
             <p>Oitavo semestre</p>  
             <br />
             Faculdade de Sistemas de Informacao         

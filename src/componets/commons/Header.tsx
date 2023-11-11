@@ -1,10 +1,11 @@
+import Image from "next/image"
 import Link from "next/link"
 
 export default function Header(){
     return(
              <header>
             <Link href={"/"}>
-                <img src="https://cdn-icons-png.flaticon.com/512/8142/8142622.png" alt="Icone da letra J, Logo de josuel"/>
+                <Image src="https://svgsilh.com/svg/3273204.svg" width={55} height={55} alt="Icone da letra J, Logo de josuel"/>
             </Link>
             <nav>
                 <Link href={"/"}>Sobre mim</Link>
