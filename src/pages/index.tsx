@@ -9,7 +9,7 @@ export default function Home() {
       <meta name="descrition" content="Sou um desenvolvedor Next-js"></meta>
     </Head>
       <div
-        className={`flex min-h-screen flex-col items-center justify-between p-24`}
+        className={`py-12 px-6 md:px-32 space-y-10 md:space-y-28 `}
       >
         <AboutMe />
 
