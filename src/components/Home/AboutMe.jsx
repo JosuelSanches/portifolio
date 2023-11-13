@@ -63,9 +63,11 @@ export default function AboutMe(){
                 p-4 w-fit text-base leading-tight bg-blue-500
                 rounded-xl text-black absolute -bottom-[0.75rem]
                 sm:bottom-3
-            `}>Oitavo semestre</p>
+            `}>Oitavo semestre
+            
                 <br />
                 Faculdade de Sistemas de Informacao         
+            </p>
         </div>
     </main>
     )

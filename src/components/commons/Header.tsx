@@ -15,7 +15,7 @@ export default function Header(){
             <Link href={"/"}>
                 <Image src="https://svgsilh.com/svg/3273204.svg" width={55} height={55} alt="Icone da letra J, Logo de josuel"/>
             </Link>
-            <nav className="hidden md:flex items-center gap-10 text-blue-900">
+            <nav className="hidden md:flex items-center gap-10">
                 <Link href={"/"}>Sobre mim</Link>
                 {/*<Link href="/portifolio">Portifolio</Link> */}
                 <Link href={"/contatos"}> Entre em contato</Link>

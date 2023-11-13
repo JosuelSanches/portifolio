@@ -1,5 +1,5 @@
 import Head from "next/head";
-import AboutMe from '@/componets/Home/AboutMe';
+import AboutMe from '@/components/Home/AboutMe';
 
 export default function Home() {
   return (
