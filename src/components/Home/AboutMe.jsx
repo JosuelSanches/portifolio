@@ -52,11 +52,11 @@ export default function AboutMe(){
         </div>
         <div className="relative">
             <Image 
-            src="https://avatars.githubusercontent.com/u/107212505?s=400&u=01e853216987527b9a033e242b05358e07bf3ca3&v=4" 
+            src="https://avatars.githubusercontent.com/u/107212505?v=4" 
             alt="Foto de Perfil de Josuel. Homem, cabelo preto"
             unoptimized
-            width={500} 
-            height={500}
+            width={450} 
+            height={450}
             className="rounded-full"
             />
             <p className={`
